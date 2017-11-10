@@ -16,7 +16,7 @@ module.exports.extract = function(window) {
   // create metadata json hash
   var metadata = {};
   for (field in fields){
-      var key = fields[field].getElementsByTagName('td')[0].html;
+      var key = fields[field].getElementsByTagName('td')[0].innerHTML.trim();
       var nameAttr = fields[field].getElementsByTagName('td')[1].firstChild.getAttribute("name");
       metadata[key] = key + " " + nameAttr;
   }
