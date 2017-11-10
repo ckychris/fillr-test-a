@@ -1,1 +1,4 @@
-// Paste formatted JSON hash here. 
+{
+   "Ecom_ShipTo_Postal_Name_Prefix": "honorific-prefix",
+   "Ecom_ShipTo_Postal_Name_First": "given-name"
+}
