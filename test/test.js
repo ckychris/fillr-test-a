@@ -17,7 +17,6 @@ describe('Task #1 - Metadata', function() {
         [],
         function (err, window) {
           result = extract_test.extract(window);
-          console.log(result);
           done();
         }
       );
